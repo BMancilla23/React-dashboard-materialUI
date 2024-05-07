@@ -1,4 +1,4 @@
-# React - Dashboard - Theme
+# React - Dashboard - MaterialUI
 
 ---
 
