@@ -1,0 +1,29 @@
+{
+    "[javascript]": {
+        "editor.autoClosingBrackets": "always",
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.codeActionsOnSave": {
+          "source.fixAll": "always",
+          "source.fixAll.eslint": "always"
+        },
+        "editor.formatOnSave": true
+    },
+      "[json]": {
+        "editor.autoClosingBrackets": "always",
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.codeActionsOnSave": {
+          "source.fixAll": "always",
+          "source.fixAll.eslint": "always"
+        },
+        "editor.formatOnSave": true
+      },
+      "[typescript]": {
+        "editor.autoClosingBrackets": "always",
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.codeActionsOnSave": {
+          "source.fixAll": "always",
+          "source.fixAll.eslint": "always"
+        },
+        "editor.formatOnSave": true
+    }
+}
