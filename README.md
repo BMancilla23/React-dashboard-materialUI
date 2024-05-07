@@ -1,6 +1,18 @@
-# React - Template - Typescript
+# React - Dashboard - Theme
 
 ---
+
+Instalar paquetes
+
+```cmd
+pnpm install
+```
+
+Iniciar servidor
+
+```cmd
+pnpm run dev
+```
 
 ## Conventional Commits
 
