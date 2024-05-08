@@ -1,19 +1,24 @@
 {
-	"parser": "@typescript-eslint/parser",
-	"extends": [
-		"plugin:@typescript-eslint/recommended",
-		"plugin:prettier/recommended"
-	],
-	"parserOptions": {
-		"ecmaVersion": "latest",
-		"sourceType": "module"
-	},
-	"rules": {
-		"eqeqeq": ["error", "always"],
-		"no-empty-function": "error",
-		"no-implicit-coercion": "warn",
-		"@typescript-eslint/no-explicit-any": "warn",
-		"@typescript-eslint/no-duplicate-enum-values": "warn",
-		"@typecript-eslint/no-inferrable-types": "off"
-	}
+  "parser": "@typescript-eslint/parser", // Utiliza el parser de TypeScript para analizar el código TypeScript
+
+  "extends": [
+    "eslint:recommended", // Extiende las reglas recomendadas por ESLint
+    "plugin:@typescript-eslint/recommended", // Extiende las reglas recomendadas de ESLint para TypeScript
+    "prettier" // Combina las reglas de ESLint con las reglas de formato de Prettier
+  ],
+
+  "parserOptions": {
+    "ecmaVersion": "latest", // Utiliza la última versión de ECMAScript
+    "sourceType": "module" // Utiliza el modo de módulo para el análisis de código
+  },
+
+  "rules": {
+    "eqeqeq": ["error", "always"], // Exige el uso de === y !== en lugar de == y !=
+    "no-empty-function": "error", // No permite funciones vacías
+    "no-implicit-coercion": "warn", // Advierte sobre la conversión implícita de tipos
+    "@typescript-eslint/no-explicit-any": "off", // Permite explícitamente el uso de 'any' en TypeScript
+    "@typescript-eslint/no-duplicate-enum-values": "warn", // Advierte sobre valores duplicados en enumeraciones en TypeScript
+    "@typecript-eslint/no-inferrable-types": "off", // Deshabilita la advertencia sobre tipos inferidos explícitos en TypeScript
+    "@typescript-eslint/no-unused-vars": "warn" // Advierte sobre variables no utilizadas en TypeScript
+  }
 }
